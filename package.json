@@ -1,12 +1,15 @@
 {
-  "name": "@theworker02/rowkit",
-  "version": "1.0.0",
+  "name": "@magnexis/rowkit",
+  "version": "1.0.1",
   "description": "Streaming JSONL/CSV dataset toolkit: infer schemas, validate, sample, split, and dedupe without loading the whole file.",
   "license": "MIT",
   "author": "theworker02",
   "type": "module",
   "bin": {
-    "rowkit": "./dist/cli.js"
+    "rowkit": "bin/rowkit.js"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -16,7 +19,7 @@
       "import": "./dist/index.js"
     }
   },
-  "files": ["dist", "logo.png", "LICENSE", "README.md"],
+  "files": ["bin", "dist", "logo.png", "LICENSE", "README.md"],
   "engines": { "node": ">=20" },
   "scripts": {
     "build": "tsc -p tsconfig.build.json",

@@ -9,15 +9,15 @@ Streaming JSONL and CSV toolkit for people who work with datasets that do not fi
 Infer a schema, validate required fields, reservoir-sample rows, split train/test, and drop duplicates — all from the command line, without loading the whole file into memory.
 
 [![CI](https://github.com/theworker02/rowkit/actions/workflows/ci.yml/badge.svg)](https://github.com/theworker02/rowkit/actions/workflows/ci.yml)
-[![npm](https://img.shields.io/npm/v/@theworker02/rowkit.svg)](https://www.npmjs.com/package/@theworker02/rowkit)
+[![npm](https://img.shields.io/npm/v/@magnexis/rowkit.svg)](https://www.npmjs.com/package/@magnexis/rowkit)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ## Install
 
 ```bash
-npm install -g @theworker02/rowkit
+npm install -g @magnexis/rowkit
 # or
-npx @theworker02/rowkit --help
+npx @magnexis/rowkit --help
 ```
 
 Requires Node.js 20+.
@@ -76,7 +76,7 @@ Hashes either the whole flattened row or `--keys a,b`. Output is always JSONL.
 ## Library
 
 ```ts
-import { infer, validate } from "@theworker02/rowkit";
+import { infer, validate } from "@magnexis/rowkit";
 
 const schema = await infer("events.jsonl", "jsonl");
 const { ok } = await validate("events.jsonl", "jsonl", ["id"]);
