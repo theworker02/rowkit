@@ -1,0 +1,43 @@
+{
+  "name": "@theworker02/rowkit",
+  "version": "1.0.0",
+  "description": "Streaming JSONL/CSV dataset toolkit: infer schemas, validate, sample, split, and dedupe without loading the whole file.",
+  "license": "MIT",
+  "author": "theworker02",
+  "type": "module",
+  "bin": {
+    "rowkit": "./dist/cli.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": ["dist", "logo.png", "LICENSE", "README.md"],
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit -p tsconfig.json",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theworker02/rowkit.git"
+  },
+  "bugs": { "url": "https://github.com/theworker02/rowkit/issues" },
+  "homepage": "https://github.com/theworker02/rowkit#readme",
+  "keywords": ["jsonl", "csv", "schema", "cli", "dataset", "streaming"],
+  "dependencies": {
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
