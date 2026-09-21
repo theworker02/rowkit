@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
   <img src="logo.png" alt="rowkit" width="160" height="160" />
 </p>
 
@@ -6,11 +6,11 @@
 
 Streaming JSONL and CSV toolkit for people who work with datasets that do not fit in a spreadsheet.
 
-Infer a schema, validate required fields, reservoir-sample rows, split train/test, and drop duplicates — all from the command line, without loading the whole file into memory.
+Infer a schema, validate required fields, reservoir-sample rows, split train/test, and drop duplicates â€” all from the command line, without loading the whole file into memory.
 
 [![CI](https://github.com/theworker02/rowkit/actions/workflows/ci.yml/badge.svg)](https://github.com/theworker02/rowkit/actions/workflows/ci.yml)
 [![npm](https://img.shields.io/npm/v/@magnexis/rowkit.svg)](https://www.npmjs.com/package/@magnexis/rowkit)
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![license](https://img.shields.io/badge/license-Proprietary%20(source--available)-blue.svg)](LICENSE)
 
 ## Install
 
@@ -95,4 +95,5 @@ node dist/cli.js --help
 
 ## License
 
-MIT. Sponsor via [GitHub](https://github.com/sponsors/theworker02) or [thanks.dev](https://thanks.dev/u/gh/theworker02).
+**Source-available proprietary** — evaluation under [LICENSE](./LICENSE); commercial / production use via [COMMERCIAL.md](./COMMERCIAL.md). See [LICENSE_TRANSITION_NOTICE.md](./LICENSE_TRANSITION_NOTICE.md) and [NOTICE](./NOTICE).
+
