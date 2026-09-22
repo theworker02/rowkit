@@ -6,7 +6,7 @@
 
 Streaming JSONL and CSV toolkit for people who work with datasets that do not fit in a spreadsheet.
 
-Infer a schema, validate required fields, reservoir-sample rows, split train/test, and drop duplicates â€” all from the command line, without loading the whole file into memory.
+Infer a schema, validate required fields, reservoir-sample rows, split train/test, and drop duplicates Ã¢â‚¬â€ all from the command line, without loading the whole file into memory.
 
 [![CI](https://github.com/theworker02/rowkit/actions/workflows/ci.yml/badge.svg)](https://github.com/theworker02/rowkit/actions/workflows/ci.yml)
 [![npm](https://img.shields.io/npm/v/@magnexis/rowkit.svg)](https://www.npmjs.com/package/@magnexis/rowkit)
@@ -95,7 +95,7 @@ node dist/cli.js --help
 
 ## License
 
-**Source-available proprietary** — evaluation under [LICENSE](./LICENSE); commercial / production use via [COMMERCIAL.md](./COMMERCIAL.md). See [LICENSE_TRANSITION_NOTICE.md](./LICENSE_TRANSITION_NOTICE.md) and [NOTICE](./NOTICE).
+**Source-available proprietary** â€” evaluation under [LICENSE](./LICENSE); commercial / production use via [COMMERCIAL.md](./COMMERCIAL.md). See [LICENSE_TRANSITION_NOTICE.md](./LICENSE_TRANSITION_NOTICE.md) and [NOTICE](./NOTICE).
 
 
 ---
@@ -103,3 +103,7 @@ node dist/cli.js --help
 ## License & acquisition
 
 This project is **proprietary**. Production use, redistribution, and commercial deployment require a written commercial license or completed acquisition. See [LICENSE](./LICENSE) and [ACQUISITION.md](./ACQUISITION.md). Contact [@theworker02](https://github.com/theworker02).
+
+## Status
+
+rowkit is actively packaged for commercial licensing and acquisition diligence. See [ACQUISITION.md](./ACQUISITION.md) and [docs/acquisition/](./docs/acquisition/).
