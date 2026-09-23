@@ -1,4 +1,4 @@
-﻿{
+{
     "name":  "@magnexis/rowkit",
     "version":  "1.0.1",
     "description":  "Streaming JSONL/CSV dataset toolkit: infer schemas, validate, sample, split, and dedupe without loading the whole file.",
